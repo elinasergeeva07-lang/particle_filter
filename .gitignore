@@ -1,0 +1,31 @@
+# Скомпилированные файлы
+*.o
+*.exe
+*.out
+*.app
+
+# Директории сборки
+obj/
+bin/
+build/
+CMakeFiles/
+
+# Результаты работы
+output/*.csv
+output/*.ppm
+result.txt
+grid.bin
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Тестовые данные
+test_output/
