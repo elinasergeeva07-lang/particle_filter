@@ -18,7 +18,7 @@ typedef struct {
     double estimate;    // оценка фильтра
 } SimulationResult;
 
-// ===== Основные функции фильтра =====
+// Основные функции фильтра
 
 // Инициализация частиц
 // particles - массив частиц
@@ -45,7 +45,7 @@ void resample(Particle* particles, int N);
 // Оценка положения (взвешенное среднее)
 double estimate_position(Particle* particles, int N);
 
-// ===== Вспомогательные функции =====
+// Вспомогательные функции
 
 // Случайное число из гауссова распределения
 double rand_gaussian(double mean, double std_dev);
